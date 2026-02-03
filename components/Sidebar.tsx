@@ -57,14 +57,6 @@ const Sidebar: React.FC<SidebarProps> = ({ sections, activeSection, onSectionCli
           ))}
         </nav>
       </div>
-      
-      <div className="mt-auto p-6 border-t border-slate-100">
-        <div className="bg-slate-50 rounded-xl p-4">
-          <p className="text-xs text-slate-500 text-center">
-            Designed for TM Interview Preparation
-          </p>
-        </div>
-      </div>
     </aside>
   );
 };
