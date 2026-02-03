@@ -216,7 +216,7 @@ export const MASTER_DATA: AppData = {
     },
     {
       id: "section-11",
-      title: "BYJUS",
+      title: "Section 11: BYJUS Experience",
       questions: [
         {
           id: "Q31",
@@ -227,12 +227,23 @@ export const MASTER_DATA: AppData = {
     },
     {
       id: "section-12",
-      title: "Next",
+      title: "Section 12: Next Education Experience",
       questions: [
         {
           id: "Q32",
           question: "What challenges did you face while driving adoption at Next Education?",
           answer: "“At Next Education, driving adoption was directly linked to how teachers used the solution in real classrooms, and that came with several practical challenges.\n\nThe first major challenge was teacher resistance to change. Even after training, many teachers preferred traditional methods because they were comfortable with chalk-and-board teaching. Some teachers felt that digital tools would disrupt their teaching flow or increase their workload initially.\n\nThe second challenge was low confidence during live classroom situations. Teachers might understand the tool during training, but when they had to use it in front of students, they hesitated. They were worried about making mistakes or losing control of the class while using technology.\n\nAnother challenge was uneven adoption across staff. In most schools, a few tech-friendly teachers would adopt quickly, but others would remain inactive. This created partial adoption, where the school was not getting full value from the solution.\n\nA fourth challenge was time and scheduling constraints. Schools have busy timetables, exams, and academic pressure, so it was difficult to gather all teachers repeatedly for training or follow-ups.\n\nWe also faced challenges around leadership involvement. Adoption improved significantly when principals actively encouraged usage, but in some cases, leadership treated it as a teacher-level tool rather than a school-wide priority.\n\nTo overcome these challenges, I focused on small classroom-level quick wins instead of repeating full training. I supported teachers in their first few live sessions, introduced features gradually, built teacher champions within the school, and aligned with principals so adoption became institutional rather than optional.\n\nThis experience taught me that in school environments, adoption is not achieved through training alone — it requires habit-building, continuous reinforcement, and stakeholder alignment.\n\nThat is why my adoption approach is always outcome-focused — ensuring the product becomes part of daily classroom routine, which ultimately drives retention and renewals.”"
+        }
+      ]
+    },
+    {
+      id: "section-13",
+      title: "Section 13: Career Growth & Future Outlook",
+      questions: [
+        {
+          id: "Q33",
+          question: "Where do you see yourself in 2 years?",
+          answer: "“Over the next two years, I see myself becoming a strong owner of adoption and customer outcomes at Teachmint.\n\nIn the first phase, my focus will be to ensure that schools don’t just onboard, but reach deep daily usage — where Teachmint becomes part of the institution’s routine for teachers, principals, and parents.\n\nIn 2 years, I want to be someone who contributes beyond account management — by building repeatable adoption playbooks, capturing structured feedback from schools, and closing the loop with product teams so that what we build creates real impact in classrooms.\n\nUltimately, I want to grow into a role where I help scale customer success and product adoption across key partnerships, aligned with Teachmint’s mission of becoming the default infrastructure for education.”"
         }
       ]
     }
