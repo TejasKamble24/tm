@@ -22,7 +22,8 @@ const QuestionCard: React.FC<QuestionCardProps> = ({ entry }) => {
 
   return (
     <div 
-      className={`border rounded-xl transition-all duration-200 mb-4 overflow-hidden bg-white shadow-sm hover:shadow-md ${isExpanded ? 'ring-1 ring-blue-500 border-blue-100' : 'border-slate-200'}`}
+      id={entry.id}
+      className={`border rounded-xl transition-all duration-200 mb-4 overflow-hidden bg-white shadow-sm hover:shadow-md scroll-mt-32 ${isExpanded ? 'ring-1 ring-blue-500 border-blue-100' : 'border-slate-200'}`}
     >
       <div 
         className="p-4 md:p-5 flex items-start justify-between cursor-pointer gap-4 group"
