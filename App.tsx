@@ -10,6 +10,7 @@ const App: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [activeSection, setActiveSection] = useState('section-1');
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [sidebarWidth, setSidebarWidth] = useState(288); // Default 288px (w-72)
 
   // Filter logic
   const filteredData = useMemo(() => {
@@ -81,10 +82,15 @@ const App: React.FC = () => {
         activeSection={activeSection}
         onSectionClick={scrollToSection}
         extraTitles={MASTER_DATA.extraSections.map(s => s.title)}
+        width={sidebarWidth}
+        onWidthChange={setSidebarWidth}
       />
 
       {/* Main Content Area */}
-      <main className="flex-1 lg:ml-72 min-h-screen relative flex flex-col">
+      <main 
+        className="flex-1 min-h-screen relative flex flex-col transition-[margin] duration-0"
+        style={{ marginLeft: window.innerWidth >= 1024 ? `${sidebarWidth}px` : '0px' }}
+      >
         {/* Header / Search bar Container */}
         <header className="sticky top-0 z-10 bg-slate-50/80 backdrop-blur-md px-4 py-4 md:px-8 md:py-6 flex flex-col items-center">
           <div className="w-full flex items-center justify-between mb-4 lg:hidden">
